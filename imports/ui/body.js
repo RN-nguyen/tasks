@@ -1,7 +1,7 @@
 //import files so they can be shown in client or ui
 import { Template } from 'meteor/templating';
 import { Tasks } from '../api/tasks.js';
-import './tasks.js';
+import './task.js';
 import './body.html';
 
 Template.body.helpers({
